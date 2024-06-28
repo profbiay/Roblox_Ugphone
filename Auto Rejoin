@@ -7,4 +7,4 @@ https://www.mediafire.com/file/qcd28vg7lq0msbv/termux-0-119-1.apk/file
 // Setup
 termux-setup-storage && apt update && apt upgrade && pkg install python
 
-cd /sdcard/Download && python ToolRejoin.py
+cd /sdcard/Download && python Rejoin.py
