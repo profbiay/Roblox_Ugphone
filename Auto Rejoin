@@ -1,7 +1,7 @@
 // Files
-- Auto Rejoin
-https://www.mediafire.com/file/afm1k622cb06sux/rejoin.py/file
+- Auto Rejoin 
 
+https://www.mediafire.com/file/q9qypecm6c8xlk3/Rejoin.py/file
 
 - Termux 0.119 
 
@@ -9,6 +9,6 @@ https://www.mediafire.com/file/qcd28vg7lq0msbv/termux-0-119-1.apk/file
 
 // Setup
 
-echo "y" | termux-setup-storage && pkg install python libexpat openssl -y && pip install Flask requests pycryptodome colorama && pkg install android-tools
+termux-setup-storage && apt update && apt upgrade && pkg install python
 
-cd /sdcard/Download/ && python rejoin.py
+cd /sdcard/Download && python Rejoin.py
