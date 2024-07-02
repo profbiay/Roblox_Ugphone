@@ -1,14 +1,2 @@
-// Files
-- Auto Rejoin 
-
-https://www.mediafire.com/file/q9qypecm6c8xlk3/Rejoin.py/file
-
-- Termux 0.119 
-
-https://www.mediafire.com/file/qcd28vg7lq0msbv/termux-0-119-1.apk/file
-
-// Setup
-
-termux-setup-storage && apt update && apt upgrade && pkg install python
-
-cd /sdcard/Download && python Rejoin.py
+// All Tutorial 
+https://drive.google.com/drive/u/0/mobile/folders/1z4S2yBj43cc0CqjUnShngxtk5-C7tzDt/1z9RHG8_AdbmxM5KeHU4OPytdUB-_I51h?pli=1&sort=13&direction=a
